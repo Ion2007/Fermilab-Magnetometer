@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CMF075K0000JNEK"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-07-04-13:58:25)
+    (mountForm default
+        (footprintRef "RESAD1653W69L737D229")
+        (spec "System")
+    )
+)

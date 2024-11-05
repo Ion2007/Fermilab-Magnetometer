@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/1757707/1162515/2.50/2/3/Resistor/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="c135_h90" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="35.433070866141">
+    <padshape layer="TOP" shape="round" width="53.149606299212" height="53.149606299212" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="61.023622047243" height="61.023622047243" />
+    <padshape layer="INNER" shape="round" width="53.149606299212" height="53.149606299212" />
+    <padshape layer="BOTTOM" shape="round" width="53.149606299212" height="53.149606299212" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="61.023622047243" height="61.023622047243" />
+  </padstyle>
+  <footprint name="RESAD1653W69L737D229" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="c135_h90" originx="0" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="c135_h90" originx="649.60629921259" originy="0" rotation="90" />
+    <line layer="TOP_PLACE_BOUND" originx="-36.417322834645" originy="58.858267716535" endx="686.02362204724" endy="58.858267716535" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="686.02362204724" originy="58.858267716535" endx="686.02362204724" endy="-58.858267716535" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="686.02362204724" originy="-58.858267716535" endx="-36.417322834645" endy="-58.858267716535" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="-36.417322834645" originy="-58.858267716535" endx="-36.417322834645" endy="58.858267716535" width="1.9685039370079" />
+    <line layer="TOP_ASSEMBLY" originx="179.72440944882" originy="45.07874015748" endx="469.88188976377" endy="45.07874015748" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="469.88188976377" originy="45.07874015748" endx="469.88188976377" endy="-45.07874015748" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="469.88188976377" originy="-45.07874015748" endx="179.72440944882" endy="-45.07874015748" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="179.72440944882" originy="-45.07874015748" endx="179.72440944882" endy="45.07874015748" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="0" originy="0" endx="179.72440944882" endy="0" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="469.88188976377" originy="0" endx="649.60629921259" endy="0" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="179.72440944882" originy="45.07874015748" endx="469.88188976377" endy="45.07874015748" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="469.88188976377" originy="45.07874015748" endx="469.88188976377" endy="-45.07874015748" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="469.88188976377" originy="-45.07874015748" endx="179.72440944882" endy="-45.07874015748" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="179.72440944882" originy="-45.07874015748" endx="179.72440944882" endy="45.07874015748" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="40.354330708661" originy="0" endx="179.72440944882" endy="0" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="469.88188976377" originy="0" endx="609.25196850393" endy="0" width="7.8740157480314" />
+  </footprint>
+  <symbol name="CMF075K0000JNEK" originx="0" originy="0">
+    <line originx="200" originy="50" endx="500" endy="50" width="0" />
+    <line originx="500" originy="-50" endx="500" endy="50" width="0" />
+    <line originx="500" originy="-50" endx="200" endy="-50" width="0" />
+    <line originx="200" originy="50" endx="200" endy="-50" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="0" originy="-10" style="Default" rotation="0" justify="upperleft" flipped="False" hidden="True" data="1" />
+      <text name="pindes" originx="0" originy="10" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="500" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="700" originy="-10" style="Default" rotation="0" justify="upperright" flipped="False" hidden="True" data="2" />
+      <text name="pindes" originx="700" originy="10" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+  </symbol>
+  <component name="CMF075K0000JNEK" designatorprefix="R" height="0" footprint="RESAD1653W69L737D229">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="1" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="2" />
+    <attached_symbol gate="1" name="CMF075K0000JNEK" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="http://www.vishay.com/docs/31018/cmfind.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="VISHAY - CMF075K0000JNEK - METAL FILM RESISTOR, 5KOHM, 500mW, +/-5%" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Vishay" />
+    <text name="Manufacturer_Part_Number" originx="550" originy="150" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="CMF075K0000JNEK" />
+  </component>
+</quadcept_library>

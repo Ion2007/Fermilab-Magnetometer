@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ROX3SJ33R'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "TE Connectivity", "ROX3SJ33R" (!) = "", "RESAD3700W80L1500D550", "Resistors, Axial Diameter Horizontal Mounting", "279-ROX3SJ33R", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/ROX3SJ33R?qs=ip69W3eHERVJGWl7kMO4nA%3D%3D", "ROX3S metal oxide film resistor,33R 3W TE Connectivity ROX3S Series Axial Metal Film Resistor 33", "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-39/9124.pdf"
+END_PART
+
+END.

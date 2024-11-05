@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RSF1JT1K00'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Stackpole Electronics, Inc.", "RSF1JT1K00" (!) = "", "RESAD2900W85L1100D450", "Resistors, Axial Diameter Horizontal Mounting", "", "", "RES, MO, 1W, 1 Kohm, 5%", "https://cs.seielect.com/catalog/SEI-RSF_RSMF.pdf"
+END_PART
+
+END.

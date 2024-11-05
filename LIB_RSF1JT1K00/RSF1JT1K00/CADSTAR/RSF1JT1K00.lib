@@ -1,0 +1,16 @@
+.RSF1JT1K00 :1 ;RES, MO, 1W, 1 Kohm, 5%
+RESAD2900W85L1100D450
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN RSF1JT1K00
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Stackpole Electronics, Inc.)
+~!Manufacturer_Part_Number (RSF1JT1K00)
+~!Link Datasheet (https://cs.seielect.com/catalog/SEI-RSF_RSMF.pdf)
+~!Height (-)
+~!3D_Model (RSF1JT1K00)
+RSF1JT1K00
+1.1!U 2.1!U 

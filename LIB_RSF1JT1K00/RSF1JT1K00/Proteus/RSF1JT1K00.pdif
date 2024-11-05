@@ -1,0 +1,124 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "RSF1JT1K00"
+   (description "RES, MO, 1W, 1 Kohm, 5%")
+   (family "RES")
+   (package "RESAD2900W85L1100D450")
+   (attribute "Datasheet Link" "https://cs.seielect.com/catalog/SEI-RSF_RSMF.pdf")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Manufacturer_Name" "Stackpole Electronics, Inc.")
+   (attribute "Manufacturer_Part_Number" "RSF1JT1K00")
+   (gate
+    (symbol "RSF1JT1K00")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "RSF1JT1K00"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RESAD2900W85L1100D450"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.038 2.6)
+      (pt 30.037 2.6)
+      (pt 30.037 -2.6)
+      (pt -1.038 -2.6)
+      (pt -1.038 2.6))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 9 2.25)
+      (pt 20 2.25)
+      (pt 20 -2.25)
+      (pt 9 -2.25)
+      (pt 9 2.25))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0 0)
+      (pt 9 0))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 20 0)
+      (pt 29 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 9 2.25)
+      (pt 20 2.25)
+      (pt 20 -2.25)
+      (pt 9 -2.25)
+      (pt 9 2.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.138 0)
+      (pt 9 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 20 0)
+      (pt 27.862 0))))
+   (leg 1 (pt 0 0) (padstack 0))
+   (leg 2 (pt 29 0) (padstack 0))
+   (padstack 0
+    (hole 1.05)
+    (plated true)
+    (pad (layer TCOP) (round 1.575))
+    (pad (layer INNER) (round 1.575))
+    (pad (layer BCOP) (round 1.575))
+   )
+   (model "RSF1JT1K00.stp"
+    (euler 0 0 0)
+    (offset 9 0 2.25)
+   )
+  )
+ )
+)

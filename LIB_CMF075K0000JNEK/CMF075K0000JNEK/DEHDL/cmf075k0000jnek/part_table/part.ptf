@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CMF075K0000JNEK'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Vishay", "CMF075K0000JNEK" (!) = "", "RESAD1653W69L737D229", "Resistors, Axial Diameter Horizontal Mounting", "", "", "VISHAY - CMF075K0000JNEK - METAL FILM RESISTOR, 5KOHM, 500mW, +/-5%", "http://www.vishay.com/docs/31018/cmfind.pdf"
+END_PART
+
+END.
